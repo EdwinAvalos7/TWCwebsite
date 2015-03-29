@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="page.css">
+		<script src="script.js"></script>
+	</head>
+	<body onload=start()>
+		<div id="title">
+		</div>
+		<div id="menu">
+			<ul id="nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Version</a></li>
+				<li><a href="#">three</a></li>
+				<li><a href="#">four</a></li>
+				<li><a href="#">five</a></li>
+			</ul>
+		</div>
+		<div id="sections">
+			<p id="1" onclick="swap('tb1', 'tb')" onmouseover="color(this, true)" onmouseout="color(this, false)"> Default </p>
+			<p id="2" onclick="swap('tb2', 'tb')" onmouseover="color(this, true)" onmouseout="color(this, false)"> second thing </p>
+			<p id="3" onclick="swap('tb3', 'tb')" onmouseover="color(this, true)" onmouseout="color(this, false)"> another thing </p>
+		</div>
+		<div id="textbox">
+			<p id="tb"> </p>
+			<p id="tb1"class="hid"> This is the default information for page 2. </p>
+			<p id="tb2"class="hid"> This is different from page1 </p>
+			<p id="tb3"class="hid"> Also different from page 1 </p>
+		</div>
+	</body>
+</html>

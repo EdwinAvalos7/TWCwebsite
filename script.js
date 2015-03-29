@@ -1,3 +1,8 @@
+function start()
+{
+	showDef();
+}
+
 function showDef()
 {	
 	document.getElementById("tb").innerHTML = document.getElementById("tb1").innerHTML;
