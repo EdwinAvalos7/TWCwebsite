@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="page.css">
+		<script src="script.js"></script>
+	</head>
+	<body onload=showDef()>
+		<div id="title">
+			<p> Team A Completion Report </p>
+		</div>
+		<div id="menu">
+			<p> Team A Completion Report </p>
+		</div>
+		<div id="sections">
+			<div id="section">
+				<p id="1" onclick="swap('tb1', 'tb')" onmouseover="color(this, true)" onmouseout="color(this, false)"> Default </p>
+				<p id="2" onclick="swap('tb2', 'tb')" onmouseover="color(this, true)" onmouseout="color(this, false)"> Team A Completion Report </p>
+				<p id="3" onclick="swap('tb3', 'tb')" onmouseover="color(this, true)" onmouseout="color(this, false)"> Team A Completion Report2 </p>
+			</div>
+		</div>
+		<div id="textbox">
+			<p id="tb"> </p>
+			<p id="tb1"class="hid"> This is the default information that would show when the page is first loaded. </p>
+			<p id="tb2"class="hid"> This is the information that shows when you click on the first thing to the left </p>
+			<p id="tb3"class="hid"> This is the information that shows when you click on the second thing to the right </p>
+		</div>
+	</body>
+</html>
