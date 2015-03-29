@@ -1,8 +1,9 @@
 body
 {
-	min-height: 250px;
+	min-height: 25px;
 	min-width: 450px;
 	font-size:100%;
+	background-color:gray;
 }
 
 p
@@ -13,19 +14,22 @@ p
 
 div
 {
-	background-image:url(border.png);
-	background-repeat:no-repeat;
-	background-size:100% 100%;
+	border-style:solid;
+	border-width:1px;
 }
 
 .hid
 {
 	visibility:hidden;
 }
+
+.section
+{
+	margin-top:20%;
+}
+
 #title
 {
-	border-style:solid;
-	border-width:1px;
 	height: 20%;
 	width:89%;
 	margin-left:5%;
@@ -39,23 +43,18 @@ div
 
 #sections
 {
-	border-style:solid;
-	border-width:1px;
 	height: 70%;
 	width: 24%;
 	float: left;
-	margin-left:5%;
-	margin-right:1%;	
+	margin-left:5%;	
 	min-height: 175px;
 	min-width: 60px;
 }
 
 #textbox
 {
-	border-style:solid;
-	border-width:1px;
 	height: 70%;
-	width: 64%;
+	width: 65%;
 	float: left;	
 	margin-right:5%;	
 	min-height: 175px;
